@@ -6,7 +6,7 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 09:35:01 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/12 11:32:21 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/12 11:38:29 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,6 @@ int	main(int argc, char **argv)
 	while (i < argc - 1)
 	{
 		ft_putstr(argv[i++]);
-		write(1, "\n", 1);
+		ft_putstr("\n");
 	}
 }
